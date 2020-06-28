@@ -16,6 +16,15 @@ body {
   font-size: 14px;
 }
 
+.bg-top {
+  background-color: #f5f7ff;
+  height: 35%;
+  width: 90vw;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
 .influx {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,7 +94,6 @@ body {
 }
 
 .socialmedia-cards .sm-card {
-  background-color: lightsteelblue;
   width: 24%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,7 +109,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 1em 0em;
-  background-color: #f5f7ff;
+  background-color: #f0f2fa;
   border-radius: 5px;
 }
 
