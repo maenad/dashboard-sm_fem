@@ -1,0 +1,158 @@
+@import 'variables.scss';
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    font-size: 14px;
+}
+
+.influx {
+    display: flex;
+    align-items: center;
+
+    #up {
+        color: $link-positive;
+    }
+    #down {
+        color: $link-negative;
+    }  
+
+    img {
+        margin-right: .3rem;
+    }
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin-bottom: 2em;
+
+    .left {
+    }
+    .right {
+    }
+}
+.socialmedia-cards {
+    width: 70vw;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    .sm-card {
+        background-color: lightsteelblue;
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0em;
+        background-color: $very-pale-blue;
+        border-radius: 5px;
+
+        .username {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+
+            img {
+                margin-right: .5rem;
+            }
+        }
+
+        .followers {
+            padding: 1.5em;
+            text-align: center;
+            .total-followers {
+                font-size: 2.5em;
+                font-weight: 700;
+            }
+            p {
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: $dark-grayish-blue-text;
+            }
+        }
+        
+        
+    }
+
+            #facebook {
+                border-top: .3em solid $facebook;
+            }
+            #twitter {
+                border-top: .3em solid $twitter;
+            }
+            #instagram {
+                border-top: .3em solid;
+                border-image-source: linear-gradient(90deg, rgba(253,196,104,1) 0%, rgba(223,73,150,1) 100%);
+                border-image-slice: 1;
+            }
+            #youtube {
+                border-top: .3em solid $youtube;
+            }
+}
+
+.analytics {
+    width: 70vw;
+
+    .overview-today {
+        margin-top: 2.5em;
+        font-size: 1.5em;
+        font-weight: 700;
+
+        span {
+            color: $dark-grayish-blue-text;
+        }
+    }
+
+    .analytics-cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .analytics-card {
+            box-sizing: border-box;
+            background-color: $very-pale-blue;
+            width: 24%;
+            border-radius: 5px;
+            padding: 2em;
+            margin-top: 1em;
+
+            .top, .bottom {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+
+                .today-stat {
+                    font-size: 2em;
+                    font-weight: 700;
+                }
+            }
+            .top {
+                margin-bottom: 2em;
+            }  }
+    }
+}
+

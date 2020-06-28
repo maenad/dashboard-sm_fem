@@ -1,0 +1,218 @@
+/** DARK THEME **/
+/** LIGHT THEME **/
+/** SOCIAL MEDIA AND LINKS **/
+/** TOGGLE **/
+/** FONT **/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+.influx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.influx #up {
+  color: #1db489;
+}
+
+.influx #down {
+  color: #dc414c;
+}
+
+.influx img {
+  margin-right: .3rem;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70vw;
+  margin-bottom: 2em;
+}
+
+.socialmedia-cards {
+  width: 70vw;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.socialmedia-cards .sm-card {
+  background-color: lightsteelblue;
+  width: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 0em;
+  background-color: #f5f7ff;
+  border-radius: 5px;
+}
+
+.socialmedia-cards .sm-card .username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.socialmedia-cards .sm-card .username img {
+  margin-right: .5rem;
+}
+
+.socialmedia-cards .sm-card .followers {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.socialmedia-cards .sm-card .followers .total-followers {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.socialmedia-cards .sm-card .followers p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #63687e;
+}
+
+.socialmedia-cards #facebook {
+  border-top: 0.3em solid #198ff5;
+}
+
+.socialmedia-cards #twitter {
+  border-top: 0.3em solid #1ca0f2;
+}
+
+.socialmedia-cards #instagram {
+  border-top: .3em solid;
+  border-image-source: linear-gradient(90deg, #fdc468 0%, #df4996 100%);
+  border-image-slice: 1;
+}
+
+.socialmedia-cards #youtube {
+  border-top: 0.3em solid #c4032a;
+}
+
+.analytics {
+  width: 70vw;
+}
+
+.analytics .overview-today {
+  margin-top: 2.5em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.analytics .overview-today span {
+  color: #63687e;
+}
+
+.analytics .analytics-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.analytics .analytics-cards .analytics-card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f5f7ff;
+  width: 24%;
+  border-radius: 5px;
+  padding: 2em;
+  margin-top: 1em;
+}
+
+.analytics .analytics-cards .analytics-card .top, .analytics .analytics-cards .analytics-card .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.analytics .analytics-cards .analytics-card .top .today-stat, .analytics .analytics-cards .analytics-card .bottom .today-stat {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.analytics .analytics-cards .analytics-card .top {
+  margin-bottom: 2em;
+}
+/*# sourceMappingURL=style.css.map */
